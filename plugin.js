@@ -14,7 +14,7 @@ GENTICS.Aloha.HighlightEditables.init = function () {
 
 	// remember refernce to this class for callback
 	var that = this;
-	
+	/*
 	// highlight editables as long as the mouse is moving
 	GENTICS.Utils.Position.addMouseMoveCallback(function () {
 		for ( var i = 0; i < GENTICS.Aloha.editables.length; i++) {
@@ -29,6 +29,7 @@ GENTICS.Aloha.HighlightEditables.init = function () {
 	GENTICS.Utils.Position.addMouseStopCallback(function () {
 		that.fade();
 	});
+	*/
 
 	// mark active Editable with a css class
 	GENTICS.Aloha.EventRegistry.subscribe(
